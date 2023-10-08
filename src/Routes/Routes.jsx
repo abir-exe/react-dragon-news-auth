@@ -5,6 +5,7 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import News from "../Pages/News/News";
 import PrivateRoute from "./PrivateRoute";
+import Addict from "../Pages/Addict/Addict";
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>  
+            },
+            {
+                path: '/addict',
+                element: <Addict>></Addict>
             }
         ]
     }
